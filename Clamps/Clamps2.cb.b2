@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="Clamps2" units="Inches">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects />
+    </layer>
+    <layer name="AnnotationPlane1" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects />
+    </layer>
+    <layer name="Defpoints" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects />
+    </layer>
+    <layer name="CLAMPS_SKETCH1" color="255,0,0">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <circle id="17" c="1.75,9.25,0.375" d="0.45">
+          <ModificationCount>439</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <pline id="18" Closed="true">
+          <ModificationCount>440</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>1.85,1.45,0.375</p>
+            <p b="-0.41421356237309503">1.65000000000001,1.45,0.375</p>
+            <p>1.45,1.65,0.375</p>
+            <p b="-0.41421356237309503">1.45,7.25,0.375000000000001</p>
+            <p>1.65,7.45,0.375</p>
+            <p b="-0.41421356237309503">1.85,7.45,0.375000000000001</p>
+            <p>2.05,7.25,0.375</p>
+            <p b="-0.41421356237309503">2.04999999999999,1.64999999999999,0.375</p>
+          </pts>
+        </pline>
+        <pline id="19" Closed="true">
+          <ModificationCount>440</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="0.414213562373094">1.65,10.25,0.375</p>
+            <p>0.25,8.85,0.375</p>
+            <p b="0.41421356237309209">0.25,1.65,0.375</p>
+            <p>1.65,0.250000000000001,0.375</p>
+            <p b="0.41421356237309759">1.85,0.250000000000001,0.375</p>
+            <p>3.25,1.65,0.375</p>
+            <p b="0.41421356237309243">3.25,8.85,0.375</p>
+            <p>1.85,10.25,0.375</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+  </MachiningOptions>
+  <parts />
+  <ActiveLayer>0</ActiveLayer>
+</CADFile>
